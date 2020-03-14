@@ -1,0 +1,172 @@
+languageCode: en-us
+title: PTC Resume / CV
+theme: hugo-orbit-theme
+googleAnalytics: UA-54482717-2
+
+disableRSS: true
+disableSitemap: true
+disable404: true
+
+params:
+  title: Jimmy Pan - Resume / CV
+  short_title: Jimmy Pan - Resume / CV
+  description: Resume / CV of Jimmy Pan
+  author: Jimmy Pan
+  locale: en_US
+  styles: main.sass
+  og_image:
+    image: https://avatars2.githubusercontent.com/u/3716086?s=420&v=4
+    type: image/jpeg
+    width: 420
+    height: 420
+  profile:
+    name: Jimmy Pan
+    tagline: System Engineer
+    avatar: https://avatars2.githubusercontent.com/u/3716086?s=180&v=4
+  contact:
+    enable: true
+    list:
+      - class: email
+        icon: fa-envelope
+        url: "mailto:me@ptc.work"
+        title: me@ptc.work
+      - class: phone
+        icon: fa-phone
+        url: "tel:+886909010307"
+        title: +886-909-010-307
+      - class: key
+        icon: fa-key
+        url: //pgp.mit.edu/pks/lookup?search=0x1DAE74DE7F32C311
+        title: 7F32C311
+      - class: website
+        icon: fa-globe
+        url: //ptc.work
+        title: ptc.work
+      - class: linkedin
+        icon: fa-linkedin
+        url: //linkedin.com/in/ptc0219
+        title: linkedin.com/in/ptc0219
+      - class: github
+        icon: fa-github
+        url: //github.com/ptc0219
+        title: github.com/ptc0219
+      - class: twitter
+        icon: fa-twitter
+        url: //twitter.com/ptc0219
+        title: "@ptc0219"
+  education:
+    enable: true
+    icon: fa-graduation-cap
+    list:
+      - degree: BSc in Computer Science
+        college: Chinese Culture University
+        dates: 2014 - 2018
+        details: |
+          - Study Software Engineering
+          - Develop Online Judge for PCCU CSIE to save labor costs using Bootstrap and jQuery for frontend, Laravel for backend and shell script for compiling and judging
+  language:
+    enable: true
+    title: Languages
+    list:
+    - language: Chinese
+      level: Native
+    - language: English
+      level: Conversational
+  experiences:
+    enable: true
+    icon: fa-briefcase
+    title: Experiences
+  jobs:
+    list:
+      - position: System Engineer
+        dates: 2019-06 - Present
+        company: TeamT5 Inc.
+        location: Taipei, Taiwan
+        details: |
+          Maintain Servers, Networking devices, Internal Services
+          - Configure BGP Routing, Firewall rule on RouterBoard Routers
+          - Configure VLANs on RouterBoard Switchs
+          - Configure Ubiquiti (UniFi) Wireless Access Point
+          - Manage DHCP, NAT, DNS Service
+          - Maintain IP-PBX, IP-Phone
+          - Maintain LDAP, RADIUS Service
+          - Monitoring Server status (e.g Hardware health, Temperature, CPU, Memory, Network, Power, Disk usage) and Server room environment with our own software
+          - Manage access control system
+          - Develop our own monitoring system using Prometheus, Grafana, InfluxDB
+          - Develop our own LDAP Manage System and deploy automaticly using GitLab CI/CD and Docker
+          - Develop VPN Server supported 2FA using OpenVPN
+          - Replace networking device with Cisco
+      - position: System Administrator
+        dates: 2018-07 - 2019-01
+        company: National Chiao Tung University, Wireless Internet Laboratory
+        location: Hsinchu, Taiwan
+        details: |
+          Maintain Laboratory Server, Service and Networking devices
+          - Manage/Assign limited Laboratory IP
+          - Configure VLAN on Juniper Switch for separate public network and research network (e.g. SDN, Openstack)
+          - Maintain vSphere for provide laboratory services (e.g. Web, MySQL, FTP, VPN, NAT)
+      - position: Software Developer Intern
+        dates: 2017-09 - 2018-06
+        company: Institute for Information Industry, Cybersecurity Technology Institute
+        location: Taipei, Taiwan
+        details: |
+          Maintain and customization frontend and cooperate with the backend to develop new features
+          - Found BOM Bytes in PHP script for download program that cause downloaded binary broken
+          - Replace WinRAR with 7-Zip for packing config into client execution binary to reduce compress time
+      - position: System Administrator
+        dates: 2015-02 - 2018-06
+        company: Chinese Culture University, Department of CSIE
+        location: Taipei, Taiwan
+        details: |
+          Maintain Department Server, Service, Networking devices
+          - Configure server room and pc classroom Firewall, VLAN, NAT, Static DHCP Binding on RouterBoard router and Juniper Switch
+          - Build and Maintain pc classroom network files sharing service with 2 roles (Teacher - readwrite, Student - readonly) on Windows Server 2016
+          - Use ITMS Mass deploy System and Software Installation/Update service to manage around of 90 computers
+          - Build private cloud using Promox VE to provide public services (e.g. DNS, Online Judge)
+          - Maintain in-house GitLab Server to manage online judge source code
+          - Develop pc classroom network manage app with cordova, HTML, JS and Python for api communicating with routerboard router
+          - Using observium to monitor network and service status
+          - Administrative of G Suite console for department
+  projects:
+    enable: true
+    icon: fa-archive
+    title: Projects
+    list:
+      - title: CloudJudge
+        url: https://cloud.judge.com.tw
+        tagline: Online Judge for PCCU CSIE
+      - title: PCCU Bot
+        url: https://line.pccu.app
+        tagline: A Chatbot for PCCU Students and staffs to get information of school convenient
+      - title: PCCU Weather
+        url: https://w.pccu.app/
+        tagline: PCCU Realtime Weather Information
+      - title: PCCU Course Rating
+        url: https://course.pccu.app/
+        tagline: A Website for PCCU Students to share course experience
+      - title: Hidden Input Finder
+        url: https://chrome.google.com/webstore/detail/dekoidpnemkjhliakocnefjglakopanf
+        tagline: Extension for Chrome to find out hidden input field of webpage
+  skills:
+    enable: true
+    icon: fa-rocket
+    list:
+      - skill: Linux
+      - skill: Cisco
+      - skill: Juniper
+      - skill: RouterOS
+      - skill: PHP
+      - skill: Python
+      - skill: Golang
+      - skill: Bash
+      - skill: Nginx
+      - skill: Git
+      - skill: GitLab
+      - skill: MySQL
+      - skill: MariaDB
+      - skill: MongoDB
+      - skill: Proxmox VE
+      - skill: VMware vSphere
+      - skill: Docker
+  footer:
+    copyright: Jimmy Pan
