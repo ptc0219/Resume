@@ -21,7 +21,7 @@ params:
     height: 420
   profile:
     name: Jimmy Pan
-    tagline: System Engineer
+    tagline: Systems Engineer
     avatar: https://avatars2.githubusercontent.com/u/3716086?s=180&v=4
   contact:
     enable: true
