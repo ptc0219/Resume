@@ -95,7 +95,7 @@ params:
           - Develop our own monitoring system using Prometheus, Grafana, InfluxDB
           - Develop our own LDAP Manage System and deploy automaticly using GitLab CI/CD and Docker
           - Develop VPN Server supported 2FA using OpenVPN
-          - Replace networking device with Cisco
+          - Upgrade networking device from Mikrotik to Cisco
       - position: System Administrator
         dates: 2018-07 - 2019-01
         company: National Chiao Tung University, Wireless Internet Laboratory
