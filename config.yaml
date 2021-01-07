@@ -83,19 +83,24 @@ params:
         company: TeamT5 Inc.
         location: Taipei, Taiwan
         details: |
-          Maintain Servers, Networking devices, Internal Services
-          - Configure BGP Routing, Firewall rule on RouterBoard Routers
-          - Configure VLANs on RouterBoard Switchs
+          Maintain Servers, Networking devices, Internal Services, develop and build internal systems
+          - Configure BGP Routing, Firewall rule on Mikrotik, Cisco, VyOS, Juniper
+          - Configure VLANs on RouterBoard, Cisco Switchs
           - Configure Ubiquiti (UniFi) Wireless Access Point
           - Manage DHCP, NAT, DNS Service
           - Maintain IP-PBX, IP-Phone
           - Maintain LDAP, RADIUS Service
           - Monitoring Server status (e.g Hardware health, Temperature, CPU, Memory, Network, Power, Disk usage) and Server room environment with our own software
-          - Manage access control system
-          - Develop our own monitoring system using Prometheus, Grafana, InfluxDB
-          - Develop our own LDAP Manage System and deploy automaticly using GitLab CI/CD and Docker
-          - Develop VPN Server supported 2FA using OpenVPN
+          - Monitoring network traffic using LibreNMS and Moloch
+          - Manage Door access control system
           - Upgrade networking device from Mikrotik to Cisco
+          - Setup transit tunnel and BGP session to using our own Public IP in Office
+          - Setup DNS filter using AdGuard Home
+          - Setup centralized log management using Graylog
+          - Build our own monitoring system using Prometheus, Grafana, InfluxDB, HealthChecks
+          - Develop our own LDAP Manage System and deploy automaticly using GitLab CI/CD and Docker
+          - Develop 2FA VPN Server using OpenVPN
+          - Develop automated printing label system using Golang
       - position: System Administrator
         dates: 2018-07 - 2019-01
         company: National Chiao Tung University, Wireless Internet Laboratory
