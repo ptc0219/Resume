@@ -54,6 +54,10 @@ params:
         icon: fa-twitter
         url: //twitter.com/ptc0219
         title: "@ptc0219"
+      - class: asn
+        icon:  fa-share-alt
+        url: //bgp.he.net/AS212360
+        title: "AS212360"
   education:
     enable: true
     icon: fa-graduation-cap
