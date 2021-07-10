@@ -56,7 +56,7 @@ params:
         title: "@ptc0219"
       - class: asn
         icon:  fa-share-alt
-        url: //bgp.he.net/AS212360
+        url: //as212360.net
         title: "AS212360"
   education:
     enable: true
