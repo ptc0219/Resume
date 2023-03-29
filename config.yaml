@@ -21,7 +21,7 @@ params:
     height: 420
   profile:
     name: Jimmy Pan
-    tagline: Systems Engineer
+    tagline: Systems Engineer / Backend Developer / Network Operator
     avatar: https://avatars2.githubusercontent.com/u/3716086?s=180&v=4
   contact:
     enable: true
@@ -82,6 +82,24 @@ params:
     title: Experiences
   jobs:
     list:
+      - position: Research and Development Engineer
+        dates: 2022-02 - Present
+        company: KlickKlack Communications
+        location: Taipei, Taiwan
+        details: |
+          - Setup and maintain internal services (e.g. wireless controller, monitoring, dashboard, logging)
+          - Setup and maintain mass deployment service via network
+          - Setup router, network switch, firewall and access points for customer
+          - Lead to dockerize all services
+          - Lead to implement CI/CD workflow
+          - Developing devices config backup service using Git
+          - Developing monitoring scripts using Bash and Python to monitor router, network switch, wireless controller, PBX and MDM service
+          - Developing a custom RSS feed service using Python to fetch news from websites which does not provide RSS feed
+          - Developing a centralized management system for routers located in the offices of customers
+          - Developing tools for internal use to automate routine tasks
+          - Integrate monitor and log service notification to Slack
+          - Diagnostic and repair simple hardware failures of network switch and router
+          - Diagnostic and repair networking and Wi-Fi performance issues
       - position: CIO, Co-Founder
         dates: 2021-03 - Present
         company: Walks Cloud Inc.
@@ -94,6 +112,10 @@ params:
           - Build and maintain customer office network, infrastructure
           - Developing easy-to-use LDAP Manager
           - Customize OpenVPN Server
+          - Developing Cloud LDAP and Cloud RADIUS
+          - Developing VPN service for customer to connect our Cloud LDAP and Cloud RADIUS
+          - Build VPN service with OSPF to implement scale-out scalability
+          - Developing scripts for MDM service to manage devices
       - position: Systems Engineer
         dates: 2019-06 - 2021-03
         company: TeamT5 Inc.
@@ -106,7 +128,7 @@ params:
           - Manage DHCP, NAT, DNS Service
           - Maintain IP-PBX, IP-Phone
           - Maintain LDAP, RADIUS Service
-          - Monitoring Server status (e.g Hardware health, Temperature, CPU, Memory, Network, Power, Disk usage) and Server room environment with our own software
+          - Monitoring Server status (e.g. Hardware health, Temperature, CPU, Memory, Network, Power, Disk usage) and Server room environment with our own software
           - Monitoring network traffic using LibreNMS and Moloch
           - Manage Door access control system
           - Upgrade networking device from Mikrotik to Cisco
@@ -153,6 +175,12 @@ params:
     icon: fa-archive
     title: Projects
     list:
+      - title: CareTaipower
+        url: https://power.eq.pe
+        tagline: Taiwan Power Monitoring Dashboard
+      - title: CareTaipower Bot
+        url: https://t.me/caretaipower
+        tagline: Taiwan Power Monitoring Bot
       - title: CloudJudge
         url: https://cloud.judge.com.tw
         tagline: Online Judge for PCCU CSIE
@@ -175,19 +203,41 @@ params:
       - skill: Linux
       - skill: Cisco
       - skill: Juniper
+      - skill: Ruckus
+      - skill: Aruba
       - skill: RouterOS
+      - skill: Fortigate
+      - skill: Palo Alto
+      - skill: BGP
+      - skill: OSPF
       - skill: PHP
       - skill: Python
       - skill: Golang
       - skill: Bash
+      - skill: Zsh
       - skill: Nginx
       - skill: Git
       - skill: GitLab
       - skill: MySQL
       - skill: MariaDB
       - skill: MongoDB
+      - skill: Redis
       - skill: Proxmox VE
+      - skill: Proxmox Mail Gateway
       - skill: VMware vSphere
+      - skill: Google Workspace
+      - skill: Amazon SES
+      - skill: Amazon SNS
+      - skill: Amazon Lambda
       - skill: Docker
+      - skill: Zabbix
+      - skill: Grafana
+      - skill: Graylog
+      - skill: 3CX
+      - skill: FreePBX
+      - skill: FusionPBX
+      - skill: Mosyle
+      - skill: Jamf
+      - skill: Soldering
   footer:
     copyright: Jimmy Pan
