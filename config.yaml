@@ -229,6 +229,8 @@ params:
       - skill: Amazon SES
       - skill: Amazon SNS
       - skill: Amazon Lambda
+      - skill: Cloudflare CDN
+      - skill: Cloudflare Zero Trust
       - skill: Docker
       - skill: Zabbix
       - skill: Grafana
