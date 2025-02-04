@@ -82,31 +82,13 @@ params:
     title: Experiences
   jobs:
     list:
-      - position: Research and Development Engineer
-        dates: 2022-02 - Present
-        company: KlickKlack Communications
-        location: Taipei, Taiwan
-        details: |
-          - Setup and maintain internal services (e.g. wireless controller, monitoring, dashboard, logging)
-          - Setup and maintain mass deployment service via network
-          - Setup router, network switch, firewall and access points for customer
-          - Lead to dockerize all services
-          - Lead to implement CI/CD workflow
-          - Developing devices config backup service using Git
-          - Developing monitoring scripts using Bash and Python to monitor router, network switch, wireless controller, PBX and MDM service
-          - Developing a custom RSS feed service using Python to fetch news from websites which does not provide RSS feed
-          - Developing a centralized management system for routers located in the offices of customers
-          - Developing tools for internal use to automate routine tasks
-          - Integrate monitor and log service notification to Slack
-          - Diagnostic and repair simple hardware failures of network switch and router
-          - Diagnostic and repair networking and Wi-Fi performance issues
       - position: CIO, Co-Founder
         dates: 2021-03 - Present
         company: Walks Cloud Inc.
         location: Taipei, Taiwan
         details: |
           - Configure BGP for IP Transit
-          - Configure and maintain Dell servers, Cisco switch, Fortinet firewall, Synology NAS in IDC
+          - Configure and maintain Dell servers, Cisco switch, Fortinet firewall, Palo Alto firewall, Synology NAS in IDC
           - Monitoring network traffic using LibreNMS
           - Setup and maintain internal services (Mattermost, Redmine, Graylog, LibreNMS, GitLab, etc.)
           - Build and maintain customer office network, infrastructure
@@ -116,6 +98,24 @@ params:
           - Developing VPN service for customer to connect our Cloud LDAP and Cloud RADIUS
           - Build VPN service with OSPF to implement scale-out scalability
           - Developing scripts for MDM service to manage devices
+      - position: Research and Development Engineer
+        dates: 2022-02 - 2025-02
+        company: KlickKlack Communications
+        location: Taipei, Taiwan
+        details: |
+          - Setup and maintain internal services (e.g. wireless controller, monitoring, dashboard, logging)
+          - Setup and maintain mass deployment service via network
+          - Setup router, network switch, firewall and access points for customer
+          - Lead to dockerize all services
+          - Lead to implement CI/CD workflow
+          - Developed devices config backup service with netmiko and using Git for version control
+          - Developed monitoring scripts using Bash and Python to monitor router, network switch, wireless controller, PBX and MDM service
+          - Developed a custom RSS feed service using Python to fetch news from websites which does not provide RSS feed
+          - Developed a centralized management system for routers located in the offices of customers
+          - Developed tools for internal use to automate routine tasks
+          - Integrate monitor and log service notification to Slack
+          - Diagnostic and repair simple hardware failures of network switch and router
+          - Diagnostic and repair networking and Wi-Fi performance issues
       - position: Systems Engineer
         dates: 2019-06 - 2021-03
         company: TeamT5 Inc.
